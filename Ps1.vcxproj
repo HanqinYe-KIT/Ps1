@@ -129,12 +129,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="catch_amalgamated.cpp" />
+    <ClCompile Include="fract.cpp" />
     <ClCompile Include="gcd.cpp" />
     <ClCompile Include="Ps1.cpp" />
     <ClCompile Include="tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="catch_amalgamated.hpp" />
+    <ClInclude Include="fract.hpp" />
     <ClInclude Include="gcd.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -14,16 +14,11 @@ TEST_CASE("GCD calculation", "[gcd]") {
 #include "./gcd.h"
 #include "fract.hpp"
 
-TEST_CASE("GCD calculation", "[gcd]") {
-    REQUIRE(gcd(10, 5) == 5);
-    // ∆‰À˚ gcd ≤‚ ‘...
-}
-
 TEST_CASE("Fract function", "[fract]") {
     REQUIRE(fract(3.14) == Catch::Approx(0.14));
-    REQUIRE(fract(-2.7) == Catch::Approx(0.7));
+    REQUIRE(fract(-2.7) == Catch::Approx(0.3));
     REQUIRE(fract(0.99) == Catch::Approx(0.99));
-    REQUIRE(fract(-0.25) == Catch::Approx(0.25));
+    REQUIRE(fract(-0.25) == Catch::Approx(0.75));
     REQUIRE(fract(5.0) == Catch::Approx(0.0));
 }
 

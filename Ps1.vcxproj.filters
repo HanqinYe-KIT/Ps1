@@ -27,12 +27,18 @@
     <ClCompile Include="catch_amalgamated.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="fract.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gcd.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="catch_amalgamated.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fract.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
