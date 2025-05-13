@@ -33,6 +33,9 @@
     <ClCompile Include="zylinder.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="zinsen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gcd.h">
@@ -45,6 +48,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="zylinder.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zinsen.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

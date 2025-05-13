@@ -38,3 +38,11 @@ TEST_CASE("ZylinderOberflaeche calculation", "[zylinder]") {
     REQUIRE(zylinderOberflaeche(2.0, 3.0) == Catch::Approx(2 * M_PI * 2 * 2 + 2 * M_PI * 2 * 3));
 }
 
+#include "zinsen.hpp"
+
+TEST_CASE("ZinsenBerechnen calculation", "[zinsen]") {
+    REQUIRE(zinsenBerechnen(1000.0, 0.05, 0) == Catch::Approx(1000.0));
+    REQUIRE(zinsenBerechnen(1000.0, 0.05, 1) == Catch::Approx(1050.0));
+    REQUIRE(zinsenBerechnen(1000.0, 0.05, 2) == Catch::Approx(1102.5));
+    REQUIRE(zinsenBerechnen(500.0, 0.10, 3) == Catch::Approx(665.5).epsilon(0.01));
+}

@@ -133,12 +133,14 @@
     <ClCompile Include="gcd.cpp" />
     <ClCompile Include="Ps1.cpp" />
     <ClCompile Include="tests.cpp" />
+    <ClCompile Include="zinsen.cpp" />
     <ClCompile Include="zylinder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="catch_amalgamated.hpp" />
     <ClInclude Include="fract.hpp" />
     <ClInclude Include="gcd.h" />
+    <ClInclude Include="zinsen.hpp" />
     <ClInclude Include="zylinder.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
